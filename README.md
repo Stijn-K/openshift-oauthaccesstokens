@@ -102,7 +102,7 @@ PS > kubectl auth can-i delete oauthaccesstokens --as=system:anonymous
 yes
 ```
 
-Using the kubernetes API, we can, without authentication, delete the `oauthaccesstoken` for e.g. `kubeadmin`:
+Using the kubernetes API, we can, without authentication, delete the `oauthaccesstoken` for e.g. `developer`:
 
 ```powershell
 PS > kubectl get oauthaccesstokens
