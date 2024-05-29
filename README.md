@@ -61,9 +61,9 @@ It should definitely not be the default for e.g. `system:anonymous` or `system:u
 This behavior seems to be correctly implemented through the clusterresource `useroauthaccesstokens` where you can't see or delete the accesstokens for another user, nor can an unauthenticated user see delete the tokens.
 ## Tested versions
 Tested on Openshift versions:
-4.11 (https://www.redhat.com/en/interactive-labs/openshift)
-4.12 (production clusters on openstack)
-4.14 (local openshift cluster)
+- 4.11 (https://www.redhat.com/en/interactive-labs/openshift)
+- 4.12 (production clusters on openstack)
+- 4.14 (local openshift cluster)
 The proof of concept below works on all the above versions.
 
 ## Proof of Concept
